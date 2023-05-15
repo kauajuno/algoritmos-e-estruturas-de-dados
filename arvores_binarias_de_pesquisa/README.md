@@ -1,0 +1,3 @@
+# O que são árvores binárias?
+
+Árvores binárias de pesquisa, referidas frequentemente pelo acrônimo inglês BST (Binary Search Tree) são árvores binárias auto-balanceadas. Isto é, são árvores em que cada nó possui no máximo dois filhos e segue uma regra de balanceamento, que nesse caso é: o filho a direita de um nó qualquer guarda um valor maior que o seu, enquanto o filho a direita guarda um valor menor que o seu. Não existe regra para como uma BST lida com balanceamento de valores repetidos, vai de cada implementação jogar um nó de valor repetido para a esquerda ou para a direita.
