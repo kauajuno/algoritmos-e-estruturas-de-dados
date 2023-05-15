@@ -22,8 +22,6 @@ class BinaryTree{
     }
 
     void bfs_traversal_helper(){
-        // This traversal is done by queueing up every node available in the tree one after the other.
-        // Not many secrets one this one.
         queue<TreeNode*> q;
         TreeNode* aux = root;
         do{
