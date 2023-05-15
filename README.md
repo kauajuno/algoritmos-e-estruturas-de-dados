@@ -8,4 +8,4 @@ Em todo o repositório eu farei uso de C++ e não saia ainda se você estava esp
 
 ## Estado atual
 
-No momento que você está lendo isso o repositório está na versão v0.0.1, muita coisa ainda irá aparecer por aqui ainda!
+No momento que você está lendo isso o repositório está na versão v0.0.2, muita coisa ainda irá aparecer por aqui ainda!
