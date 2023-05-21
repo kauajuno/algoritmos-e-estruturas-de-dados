@@ -321,3 +321,8 @@ style B fill:#000
 style C fill:#000
 style D fill:#f00
 ```
+
+## Remoção
+
+Remover elementos de uma árvore RB é uma tarefa complexa, pois existem diversos casos possíveis e frente a cada um desses casos é necessário manter o balanceamento da árvore sem que haja violação das regras.
+
