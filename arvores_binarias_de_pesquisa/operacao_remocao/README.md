@@ -64,5 +64,8 @@ graph TD
 
 ```
 
-Note que, ao tentar substituir um pai de dois filhos por um de seus filhos, ele se tornaria um nó com três filhos (os dois que já tinha e seu antigo irmão) e isso viola as propriedades naturais de uma árvore binária, portanto isso não é possível.
+Note que, ao tentar substituir um pai de dois filhos por um de seus filhos, se perde o outro filho completamente. Tente para qualquer um dos nós fora do último nível desta árvore e o resultado será o mesmo.
 
+O ideal a se fazer nesse caso é atribuir o valor do antecessor ou sucessor imediato que estiver presente na árvore. Não existe uma regra neste caso, e cada implementação decide como fazer, mas qualquer uma das formas funciona. Feita a atribuição, o nó que originou o valor do antecessor / sucessor é removido, este que por sua vez é um nó folha então não há algo que o impeça de ser removido.
+
+O antecessor de um nó qualquer é o elemento mais à direita da sub-árvore esquerda do nó, e o sucessor o elemento mais a esquerda da sub-árvore direta do nó.
